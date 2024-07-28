@@ -73,14 +73,13 @@
         Upload an image and we will show you the top 10 most used colours in the image.
     </p>
     <p>
-        You can get the colors in either RGB or HEX code format. If two colours appear the same number of times, both will be shown.
+        You can get the colors in HEX code format. If two colours appear the same number of times, both will be shown.
     </p>
 </header>
 <form action="/" method="POST" enctype="multipart/form-data">
     <input type="file" name="file" required/>
     <br>
     <b>Select a color code:</b>
-    <input type="radio" name="color_code" value="rgb">RGB
     <input type="radio" name="color_code" value="hex">HEX
     <br>
     <input type="submit"/>
